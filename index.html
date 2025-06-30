@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-container">
+    <div class="logo">W.</div>
+    <nav>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul id="menu" class="hidden">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-grid">
+    <section class="main-feature">
+      <div class="feature-img">
+        <img src="./BG.png" alt="Web 3.0 Future Image">
+      </div>
+      <div class="feature-text">
+        <h1>The Bright Future of Web 3.0?</h1>
+        <p>We dive into the next evolution of the web that aims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h2>New</h2>
+      <ul>
+        <li>
+          <h4>Hydrogen VS Electric Cars</h4>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </li>
+        <li>
+          <h4>The Downsides of AI Artistry</h4>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </li>
+        <li>
+          <h4>Is VC Funding Drying Up?</h4>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </li>
+      </ul>
+    </aside>
+
+    <section class="mini-cards">
+      <div class="card">
+        <img src="./Pc.png" alt="Retro PC">
+        <div>
+          <span>01</span>
+          <h4>Reviving Retro PCs</h4>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Laptop.png" alt="Laptop Showcase">
+        <div>
+          <span>02</span>
+          <h4>Top 10 Laptops of 2022</h4>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./VideoG.png" alt="Gaming Expansion">
+        <div>
+          <span>03</span>
+          <h4>The Growth of Gaming</h4>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="darkToggle" class="toggle-mode" title="Toggle Dark Mode">🌙</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
